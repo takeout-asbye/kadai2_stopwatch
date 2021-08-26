@@ -1,0 +1,10 @@
+.timebox{
+  display: flex;
+  align-items: center;
+  margin:50px 0;
+}
+
+.timebox_time{
+  font-size: 40px;
+  margin: 10px;
+}

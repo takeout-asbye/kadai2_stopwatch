@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>ストップウォッチ</title>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <h3>ストップウォッチ</h3>
+    <div class="timebox">
+      <div id="ddd" class="timebox_time">0</div>
+      <div>:</div>
+      <div id="ccc" class="timebox_time">0</div>
+      <div>:</div>
+      <div id="bbb" class="timebox_time">0</div>
+      <div>:</div>
+      <div id="aaa" class="timebox_time">0</div>
+    </div>
+    <input id="startButton" type="button" value="スタート" onclick="start_click()">
+    <input id="stopButton" type="button" value="ストップ" onclick="stop_click()">
+    <input id="resetButton" type="button" value="リセット" onclick="reset_click()">
+
+    <script src="main.js"></script>
+  </body>
+</html>
